@@ -1,0 +1,80 @@
+
+
+
+div{
+    height: 60px;
+    background-color: rgb(6, 6, 71);
+    text-align: left;
+    padding-top: 1px;
+    padding-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(242, 248, 248);
+
+
+}
+/* Reset basic margins and set a clean font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* 1. Top Bar (Matches your dark blue theme) */
+.top-info-bar {
+    background-color: #000033;
+    color: #f2f8f8;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* 2. Main Navbar Container */
+.navbar {
+    background-color: #000033; /* Keeps the matching dark blue background */
+    display: flex;
+    justify-content: space-between; /* Pushes Logo to left, Links to right */
+    align-items: center;            /* Centers items vertically */
+    padding: 15px 40px;             /* Adds breathing room inside the navbar */
+}
+
+/* Logo styling */
+.navbar .logo h2 {
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+/* 3. Navigation Links (The Flex Magic) */
+.nav-links {
+    display: flex;          /* Turns the vertical list into a horizontal row */
+    list-style: none;       /* Completely removes the white/blue bullet points */
+    gap: 30px;              /* Creates perfect, equal spacing between each link */
+}
+
+/* 4. Link Styling & Hover Effects */
+.nav-links a {
+    color: #f2f8f8;         /* Uses the off-white color from your original code */
+    text-decoration: none;  /* Removes the default underline */
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize; /* Capitalizes the first letter automatically */
+    transition: color 0.3s ease; /* Makes the hover effect smooth */
+}
+
+/* Changes link color when you hover over it */
+.nav-links a:hover {
+    color: #4da6ff;         /* Light blue highlight on hover */
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+p{
+    background-image:url(pexels-davegarcia-31085769.jpg);
+    color: #181717;
+    width: 100%;
+    height: 100%;
+}

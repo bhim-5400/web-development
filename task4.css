@@ -1,0 +1,23 @@
+h3{
+    color: rgb(230, 230, 235);
+    background-color: rgb(4, 4, 36);
+    padding-left: 10%;
+    
+}
+div{
+    background: url(pexels-davegarcia-31070811.jpg); no-repeat center fixed;
+    background-size: cover;opacity: 0.9;
+    position: relative;
+    height: 200px;
+    padding-left: 10%;
+    padding-top: 10%;
+    font-size: 20px;
+    font-weight: bold;
+}
+h4{
+    padding-left: 10%;
+    padding-top: 10%;
+    color: azure;
+    background-color: rgb(4, 4, 36);
+    height: 150px;
+}
